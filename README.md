@@ -1,5 +1,7 @@
 # Convert Image to Grayscale image using CUDA 
 
+### NAME    : ABDULLAH R
+### REG NO  : 212223230004
 ## AIM:
 
 The aim of this project is to demonstrate how to convert an image to grayscale using CUDA programming without relying on the OpenCV library. It serves as an example of GPU-accelerated image processing using CUDA.
@@ -15,10 +17,7 @@ The aim of this project is to demonstrate how to convert an image to grayscale u
 8. Clean up allocated memory.
 
 ## Program:
-```
-DEVELOPED BY: Abdullah R  
-REGISTER NUMBER: 2122223230004
-
+```c++
 #include <stdio.h>
 #include <string>
 #include <math.h>
@@ -134,12 +133,12 @@ void outputImage(const std::string& output_file, unsigned char* grey_image, int 
 ## OUTPUT:
 
 ### Input Image
+<img src="https://github.com/user-attachments/assets/258fe645-3af6-438f-b459-f819d2c50b0b">
 
-<img width="186" alt="image" src="https://github.com/Harshini1331/PCA---Mini-Project-Mini-Project---Face-Detection-or-Convert-an-image-into-gray-scale-image-using-CUD/assets/75235554/dcdd2377-9a1b-4a18-b33e-382a887e53b0">
 
 ### Grayscale Image
+<img src="https://github.com/user-attachments/assets/6baa62a4-e302-4f4a-b56b-e2cac956e3d1">
 
-<img width="182" alt="image" src="https://github.com/Harshini1331/PCA---Mini-Project-Mini-Project---Face-Detection-or-Convert-an-image-into-gray-scale-image-using-CUD/assets/75235554/a5b2fd3e-1cc4-4e72-8f5d-722e2b17f0df">
 
 ## Result:
 The CUDA program successfully converts the input image to grayscale using the GPU. The resulting grayscale image is saved as an output file. This example demonstrates the power of GPU parallelism in accelerating image processing tasks.
